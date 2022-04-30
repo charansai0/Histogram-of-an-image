@@ -6,19 +6,19 @@ To obtain a histogram for finding the frequency of pixels in an Image with pixel
 Anaconda - Python 3.7
 
 ## Algorithm:
-###Step1:
+### Step1:
 Import cv2, matplotlib.py libraries and display the saved images using cv2.imshow().
 
-###Step2:
+### Step2:
 Use cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]]) to find the histogram of the image.
 
-###Step3:
+### Step3:
 Plot the image and its stem plots using the plt.show() and plt.stem() functions.
 
-###Step4:
+### Step4:
 Equalize the grayscale image using the in-built function cv2.equalizeHist().
 
-###Step5:
+### Step5:
 Print the original and equalized image using cv2.imshow() and end the program.
 
 ## Program:
@@ -65,22 +65,12 @@ cv2.destroyAllWindows
 ```
 ## Output:
 ### Input Grayscale Image and Color Image
-<br>
-<br>
-<br>
-<br>
-
+![output](https://github.com/charansai0/Histogram-of-an-image/blob/main/Screenshot%20(300).png?raw=true)
+![output](https://github.com/charansai0/Histogram-of-an-image/blob/main/Screenshot%20(301).png?raw=true)
 ### Histogram of Grayscale Image and any channel of Color Image
-<br>
-<br>
-<br>
-<br>
-
+![output](https://github.com/charansai0/Histogram-of-an-image/blob/main/2222.png?raw=true)
+![output](https://github.com/charansai0/Histogram-of-an-image/blob/main/654.png?raw=true)
 ### Histogram Equalization of Grayscale Image
-<br>
-<br>
-<br>
-<br>
-
+![output](https://github.com/charansai0/Histogram-of-an-image/blob/main/5566.png?raw=true)
 ## Result: 
 Thus the histogram for finding the frequency of pixels in an image with pixel values ranging from 0 to 255 is obtained. Also,histogram equalization is done for the gray scale image using OpenCV.
